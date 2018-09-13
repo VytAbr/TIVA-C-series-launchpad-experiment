@@ -1,0 +1,17 @@
+Dependencies for Project 'ADCSWTrigger', Target 'ADCSWTrigger': (DO NOT MODIFY !)
+F (.\startup.s)(0x519B2BCE)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADCSWTrigger.c)(0x544BEEBD)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (tm4c123gh6pm.h)(0x51D44682)
+F (.\ADCTestMain.c)(0x54882121)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adctestmain.o --omf_browse .\adctestmain.crf --depend .\adctestmain.d)
+I (ADCSWTrigger.h)(0x53627D5D)
+I (tm4c123gh6pm.h)(0x51D44682)
+I (PLL.h)(0x52638356)
+I (Nokia5110.h)(0x53522BD7)
+I (UART.h)(0x53610A94)
+F (.\PLL.c)(0x54494539)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x52638356)
+F (.\Nokia5110.c)(0x5449452C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x53522BD7)
+F (.\UART.c)(0x54494532)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (tm4c123gh6pm.h)(0x51D44682)
+I (UART.h)(0x53610A94)
